@@ -1,0 +1,120 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#menu {
+	padding: 2rem;
+	background: red;
+}
+
+#menu svg {
+	margin-left: 8rem;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+	margin: 0 auto;
+}
+
+/****     Title  ****/
+
+main h2 {
+	font-size: 2.4em;
+	text-align: center;
+}
+
+main p {
+	font-size: 1.2em;
+}
+
+/**** Form ****/
+
+main form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4em;
+	margin: 2rem 0;
+}
+
+main form label {
+	font-size: 1.2em;	
+}
+
+main form input[type="text"], input[type="mail"] {
+	width: 20rem;
+	padding: 0.8rem;
+	border: 1px solid black;
+	border-radius: 0.8em;
+}
+
+main form input[type="date"] {
+	width: 6rem;
+	padding: 0.8rem;
+	border: 1px solid black;
+	border-radius: 0.8em;
+}
+
+main form input[type="number"] {
+	width: 10rem;
+	padding: 0.8rem;
+	border: 1px solid black;
+	border-radius: 0.8em;
+}
+
+main form input[type="password"] {
+	width: 12rem;
+	padding: 0.8rem;
+	border: 1px solid black;
+	border-radius: 0.8em;
+}
+
+main form input[type="submit"] {
+	padding: 0.8rem;
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 0.8em;
+	font-size: 1em;
+	color: white;
+	margin-top: 1rem;
+	font-weight: bolder;
+	transition: 280ms ease-in-out;
+	cursor: pointer;
+}
+
+main form input[type="submit"]:hover {
+	opacity: 75%;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+}
+
+.field-notification {
+	display: flex;
+	gap: 0.6rem;
+	align-items: center;
+	margin-top: 0;
+	margin-bottom: 0.6rem;
+}
+
+.field-notification input {
+	width: 1.2rem;
+	height: 1.2rem;
+	padding: 0.8rem;
+	border: 1px solid black;
+	border-radius: 0.8em;
+	
+	margin: 1rem 0;
+}
+
+#genre {
+	border: none;
+	font-size: 1.2em;
+}
+
+
+

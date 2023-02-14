@@ -25,10 +25,11 @@
 	border: none;
 }
 
-#menu_icons {
+#menu-icons {
 	display: flex;
 	gap: 0.8rem;	
 }
+
 
 
 
